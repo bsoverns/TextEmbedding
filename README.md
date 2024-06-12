@@ -1,0 +1,1 @@
+This is a replacement to an old program I wrote back in the day.  I couldn't find it so I had to re-write it.  Instead of re-creating my original code to embed the text in the bitmap I used an existing class and I listed the location int he class.
