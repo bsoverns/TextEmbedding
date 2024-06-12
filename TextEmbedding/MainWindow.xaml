@@ -1,0 +1,32 @@
+﻿<Window x:Class="ImageEmbedding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Image Embedder" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="ChooseImageButton" Content="Choose Image" Grid.Row="0" Grid.Column="0" Width="100" Click="ChooseImageButton_Click"/>
+        <TextBox x:Name="ImagePathTextBox" Grid.Row="0" Grid.Column="1" IsReadOnly="True" Margin="5"/>
+        <Image x:Name="SelectedImage" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Height="200" Margin="5"/>
+        <Label Content="Text to Embed:" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center"/>
+        <TextBox x:Name="EmbedTextBox" Grid.Row="2" Grid.Column="1" Margin="5"/>
+        <Label Content="Save Location:" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center"/>
+        <TextBox x:Name="SaveLocationTextBox" Grid.Row="4" Grid.Column="1" Margin="5"/>
+        <Button x:Name="EmbedTextButton" Content="Embed Text" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Width="100" HorizontalAlignment="Center" Margin="5" Click="EmbedTextButton_Click"/>
+        <Button x:Name="ExportTextButton" Content="Export Text" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Width="100" HorizontalAlignment="Center" Margin="5" Click="ExportTextButton_Click"/>
+        <Label Content="Exported Text:" Grid.Row="7" Grid.Column="0" VerticalAlignment="Center"/>
+        <TextBox x:Name="ExportedTextBox" Grid.Row="7" Grid.Column="1" Margin="5"/>
+    </Grid>
+</Window>
