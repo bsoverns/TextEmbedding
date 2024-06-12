@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\Sandbox\\TextEmbedding\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BEE40645-87A5-4F06-A046-ECA173D644A3}|TextEmbedding\\TextEmbedding.csproj|d:\\sandbox\\textembedding\\textembedding\\classes\\encryptionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BEE40645-87A5-4F06-A046-ECA173D644A3}|TextEmbedding\\TextEmbedding.csproj|D:\\Sandbox\\TextEmbedding\\textembedding\\classes\\encryptionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEE40645-87A5-4F06-A046-ECA173D644A3}|TextEmbedding\\TextEmbedding.csproj|solutionrelative:textembedding\\classes\\encryptionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE40645-87A5-4F06-A046-ECA173D644A3}|TextEmbedding\\TextEmbedding.csproj|d:\\sandbox\\textembedding\\textembedding\\classes\\steganographyhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE40645-87A5-4F06-A046-ECA173D644A3}|TextEmbedding\\TextEmbedding.csproj|solutionrelative:textembedding\\classes\\steganographyhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEE40645-87A5-4F06-A046-ECA173D644A3}|TextEmbedding\\TextEmbedding.csproj|d:\\sandbox\\textembedding\\textembedding\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,26 +34,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SteganographyHelper.cs",
+              "DocumentMoniker": "D:\\Sandbox\\TextEmbedding\\TextEmbedding\\Classes\\SteganographyHelper.cs",
+              "RelativeDocumentMoniker": "TextEmbedding\\Classes\\SteganographyHelper.cs",
+              "ToolTip": "D:\\Sandbox\\TextEmbedding\\TextEmbedding\\Classes\\SteganographyHelper.cs",
+              "RelativeToolTip": "TextEmbedding\\Classes\\SteganographyHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:48:31.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "EncryptionClass.cs",
               "DocumentMoniker": "D:\\Sandbox\\TextEmbedding\\TextEmbedding\\Classes\\EncryptionClass.cs",
               "RelativeDocumentMoniker": "TextEmbedding\\Classes\\EncryptionClass.cs",
               "ToolTip": "D:\\Sandbox\\TextEmbedding\\TextEmbedding\\Classes\\EncryptionClass.cs",
               "RelativeToolTip": "TextEmbedding\\Classes\\EncryptionClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T02:18:01.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Sandbox\\TextEmbedding\\TextEmbedding\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "TextEmbedding\\MainWindow.xaml.cs",
               "ToolTip": "D:\\Sandbox\\TextEmbedding\\TextEmbedding\\MainWindow.xaml.cs",
               "RelativeToolTip": "TextEmbedding\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAAB8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T13:38:51.981Z",
               "EditorCaption": ""

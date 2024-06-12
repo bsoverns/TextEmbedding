@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dAPf2ukMQyUDCfP075n7fCJBEgKxd6x8KCBJCoYsGfqV2d5ab4XiPw1O5gTOwsTJbpcqU0C8W+PLC9bU3ATisA==",
+  "success": true,
+  "projectFilePath": "D:\\Sandbox\\TextEmbedding\\TextEmbedding\\TextEmbedding.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bsove\\.nuget\\packages\\microsoft.win32.systemevents\\9.0.0-preview.4.24266.19\\microsoft.win32.systemevents.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "C:\\Users\\bsove\\.nuget\\packages\\system.drawing.common\\9.0.0-preview.4.24267.1\\system.drawing.common.9.0.0-preview.4.24267.1.nupkg.sha512"
+  ],
+  "logs": []
+}

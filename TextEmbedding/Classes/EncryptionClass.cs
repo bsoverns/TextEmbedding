@@ -8,7 +8,7 @@ namespace TextEmbedding
     class EncryptionClass
     {
         private static string Key = "aljwKDOj4n5k$%jfdapowencvertgxzj"; //32 CHARACTERS //Randomize this if you want a different crypto
-        private static string IV = "oapvnJHEj3#5j!kf"; //16 CHARACTERS
+        private static string IV = "oapvnJHEj3#5j!kf"; //16 CHARACTERS //Randomize this if you want a different crypto
         private static string return_data = "";
 
         public static string Encrypt(string text)
